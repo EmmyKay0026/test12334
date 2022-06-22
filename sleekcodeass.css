@@ -1,0 +1,184 @@
+:root{
+    --orangecolor: #ff654c;
+    --purplecolor: #892bf7;
+}
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-section{
+    background:linear-gradient(220deg,rgba(36, 35, 35, 0.282),rgba(6, 6, 6, 0.681)), url(./images/20220622-090439.png);
+    background-size: cover;
+    width: 100vw;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.brd{
+    border: 1px solid black;
+}
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width:16.67%;
+}
+.col-3{
+    width:24.99%;
+}
+.col-4{
+    width:33.32%;
+}
+.col-5{
+    width:41.65%;
+}
+.col-6{
+    width:49.98%;
+}
+.col-7{
+    width:58.31%;
+}
+.col-8{
+    width:66.64%;
+}
+.col-9{
+    width:74.97%;
+}
+.col-10{
+    width:83.3%;
+}
+.col-11{
+    width:91.63%;
+}
+.col-12{
+    width:99.96%;
+}
+nav{
+    width: 96vw;
+    padding: 0 3%;
+    font-size: 16px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    margin-right: 3vw;
+    padding-top: 4%;
+}
+nav .logo-half li:nth-child(5)::after{
+    content: "\005E";
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg) !important;
+}
+nav .sign-half{
+    width: 28vw;
+}
+nav .sign-half li{
+    padding-left:14%;
+}
+nav .sign-half li:nth-child(1){
+    margin-left: 30px;
+}
+nav .sign-half li:nth-child(2){
+    background-color: white;
+    color: black;
+    width: 37%;
+    padding: 4% 9%;
+    border-radius: 3px;
+    width: 37%;
+
+}
+hr{
+    width: 99vw;
+    color: rgb(158, 154, 154);
+}
+.hero-section{
+    padding: 0 5%;
+    margin-top:1%;
+}
+.hero-section .top-section div h1{
+    font-size: 4.3rem;
+    width: 65vw;
+}
+.hero-section .top-section div p{
+    font-size: 1.3rem;
+}
+.hero-section .top-section div p span{
+    text-decoration: underline;
+    text-decoration-color: #533e39;
+}
+.hero-section .top-section div .explore{
+    font-size: 0.9rem;
+    background-color: var(--orangecolor);
+    margin-top: 125%;
+    padding: 10px;
+    border-radius: 3px;
+}
+.hero-section .purple-section{
+    max-width: 90vw;
+    width: 100%;
+    background-color: var(--purplecolor) ;
+    padding-left: 4%;
+    padding-bottom:2%;
+    border-radius: 6px;
+    align-items: center;
+}
+.hero-section .purple-section div{
+    margin-right: 50px;
+    /* width:120vw; */
+}
+.hero-section .purple-section div p{
+    font-size: 1.65rem;
+    /* width: 200px; */
+}
+.hero-section .purple-section div h1{
+    font-size: 3.05rem;
+    line-height: 0;
+    margin-top: 50px;
+}
+.hero-section .purple-section div span{
+   opacity: 0.5;
+}
+.hero-section .purple-section div img{
+    margin: 0;
+    transform: scale(130%);
+}
+.featured-section{
+    background-color: black;
+    width: 100vw;
+    padding: 0 5%;
+}
+.featured-section div{
+    max-width: 90vw;
+    width: 100%;
+}
+.featured-section div:not(:first-child) {
+    font-size: 24px;
+}
+.featured-section div p:nth-child(2) {
+    
+font-family: 'Rochester', cursive;
+}
+.featured-section div p:nth-child(3) {
+    font-family: 'Alfa Slab One', cursive;
+}
+.featured-section div p:nth-child(4) {
+font-family: 'Grand Hotel', cursive;
+
+}
+.featured-section div p:nth-child(5) {
+    font-family: 'Lato', sans-serif;
+
+}
+.featured-section div p:nth-child(6) {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
